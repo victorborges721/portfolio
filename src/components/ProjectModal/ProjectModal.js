@@ -6,6 +6,7 @@ import {
   Container,
   Row,
   Col,
+  Badge,
 } from "react-bootstrap";
 import { BsFillEyeFill } from "react-icons/bs";
 import { BiCodeAlt } from "react-icons/bi";
@@ -28,7 +29,10 @@ const ProjectModal = ({ openProjectModal, setOpenProjectModal, project }) => {
       <Modal.Body>
         <Container>
           <Row>
-            <Col xs={12} md={8}>
+            <Col
+              xs={{ span: 12, order: "last" }}
+              lg={{ span: 8, order: "first" }}
+            >
               <div className="video-container">
                 <iframe
                   className="video"
@@ -40,12 +44,29 @@ const ProjectModal = ({ openProjectModal, setOpenProjectModal, project }) => {
                 ></iframe>
               </div>
             </Col>
-            <Col xs={12} md={4} className="project-modal-info">
+            <Col
+              xs={{ span: 12, order: "first" }}
+              lg={{ span: 4, order: "last" }}
+              className="project-modal-info"
+            >
               <CloseButton
                 onClick={() => setOpenProjectModal(false)}
                 style={{ alignSelf: "flex-end" }}
               />
               <h2>{project.project_name}</h2>
+              <div className="project-modal-skills">
+                {project.project_skills.map((skill, index) => {
+                  return (
+                    <Badge
+                      key={index}
+                      bg="dark"
+                      className="project-modal-skill"
+                    >
+                      {skill}
+                    </Badge>
+                  );
+                })}
+              </div>
               <p>{project.project_desc}</p>
               <div className="project-modal-buttons">
                 <Button

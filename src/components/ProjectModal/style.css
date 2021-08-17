@@ -16,6 +16,15 @@
 .project-modal-info {
   display: flex;
   flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.project-modal-skills {
+  margin-bottom: 15px;
+}
+
+.project-modal-skill {
+  margin-right: 5px;
 }
 
 .project-modal-buttons {
