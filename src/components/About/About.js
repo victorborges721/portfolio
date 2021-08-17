@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="aboutSection"
-      style={{ backgroundColor: "#fdfcdc", minHeight: "75vh" }}
+      style={{ backgroundColor: "#fefee3", minHeight: "75vh" }}
     >
       <Container>
         <h1>&#60;About&#62;</h1>

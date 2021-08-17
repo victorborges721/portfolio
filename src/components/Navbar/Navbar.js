@@ -4,7 +4,7 @@ import "./style.css";
 
 const Navigationbar = ({ scrollToSection }) => {
   return (
-    <Navbar style={{ backgroundColor: "#114b5f" }} expand="lg" sticky="top">
+    <Navbar style={{ backgroundColor: "#2c6e49" }} expand="lg" sticky="top">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

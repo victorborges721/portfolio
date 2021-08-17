@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section
       id="contactSection"
-      style={{ backgroundColor: "#fdfcdc", minHeight: "75vh" }}
+      style={{ backgroundColor: "#fefee3", minHeight: "75vh" }}
     >
       <Container>
         <h1>&#60;Contact&#62;</h1>
