@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import "./style.css";
 
 const About = () => {
@@ -7,8 +8,10 @@ const About = () => {
       id="aboutSection"
       style={{ backgroundColor: "#fdfcdc", minHeight: "75vh" }}
     >
-      <h1>&#60;About&#62;</h1>
-      <h1>&#60;/About&#62;</h1>
+      <Container>
+        <h1>&#60;About&#62;</h1>
+        <h1>&#60;/About&#62;</h1>
+      </Container>
     </section>
   );
 };
