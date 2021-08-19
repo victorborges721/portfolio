@@ -34,14 +34,19 @@ const ProjectModal = ({ openProjectModal, setOpenProjectModal, project }) => {
               lg={{ span: 8, order: "first" }}
             >
               <div className="video-container">
-                <iframe
+                <img
+                  src={project.project_gif_link}
+                  alt="gif tutorial"
+                  className="video"
+                />
+                {/* <iframe
                   className="video"
                   src="https://www.youtube.com/embed/us4p9-AKtb8"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
-                ></iframe>
+                ></iframe> */}
               </div>
             </Col>
             <Col

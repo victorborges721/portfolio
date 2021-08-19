@@ -1,21 +1,31 @@
 import React, { useState } from "react";
-import { Button, Card } from "react-bootstrap";
+import { Button, Card, Row, Col } from "react-bootstrap";
 import ProjectModal from "../ProjectModal";
 import "./style.css";
 
 const ProjectCard = ({ project }) => {
   const [openProjectModal, setOpenProjectModal] = useState(false);
+
   return (
     <React.Fragment>
-      <Card>
-        <Card.Header>Featured</Card.Header>
-        <Card.Body>
-          <Card.Title>{project.project_name}</Card.Title>
-          <Card.Text>{project.project_desc}</Card.Text>
-          <Button variant="primary" onClick={() => setOpenProjectModal(true)}>
-            View Project
-          </Button>
-        </Card.Body>
+      <Card className="mb-3" style={{ width: "75%" }}>
+        <Row>
+          <Col md={6}>
+            <Card.Img variant="top" src={project.project_screenshot} />
+          </Col>
+          <Col md={6} style={{ display: "flex", alignItems: "center" }}>
+            <Card.Body>
+              <Card.Title>{project.project_name}</Card.Title>
+              <Card.Text>{project.project_desc}</Card.Text>
+              <Button
+                variant="primary"
+                onClick={() => setOpenProjectModal(true)}
+              >
+                View Project
+              </Button>
+            </Card.Body>
+          </Col>
+        </Row>
       </Card>
       {openProjectModal && (
         <ProjectModal

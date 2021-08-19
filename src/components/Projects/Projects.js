@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col, CardColumns } from "react-bootstrap";
 import ProjectCard from "../ProjectCard";
 import projects from "../../data/projects";
 import "./style.css";
@@ -12,9 +12,11 @@ const Projects = () => {
     >
       <Container>
         <h1>&#60;Projects&#62;</h1>
+        {/* <CardColumns> */}
         {projects.map((project, index) => {
           return <ProjectCard key={index} project={project} />;
         })}
+        {/* </CardColumns> */}
         <h1>&#60;/Projects&#62;</h1>
       </Container>
     </section>
