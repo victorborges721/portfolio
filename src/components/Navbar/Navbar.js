@@ -1,32 +1,58 @@
 import React from "react";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Container, Navbar, Nav, Row, Col } from "react-bootstrap";
+import logo from "../../images/V.png";
 import "./style.css";
 
 const Navigationbar = ({ scrollToSection }) => {
   return (
-    <Navbar style={{ backgroundColor: "#2c6e49" }} expand="lg" sticky="top">
+    <Navbar
+      style={{ backgroundColor: "#000000", borderBottom: "1px solid white" }}
+      expand="lg"
+      sticky="top"
+    >
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link
-              className="navLink"
-              onClick={() => scrollToSection("aboutSection")}
-            >
-              &#60;About /&#62;
-            </Nav.Link>
-            <Nav.Link
-              className="navLink"
-              onClick={() => scrollToSection("projectsSection")}
-            >
-              &#60;Projects /&#62;
-            </Nav.Link>
-            <Nav.Link
-              className="navLink"
-              onClick={() => scrollToSection("contactSection")}
-            >
-              &#60;Contact /&#62;
-            </Nav.Link>
+          <Nav style={{ width: "100%" }}>
+            <div className="navbar-links mx-4">
+              <Nav.Link
+                className="navLink"
+                onClick={() => scrollToSection("aboutSection")}
+              >
+                &#60;About /&#62;
+              </Nav.Link>
+              <Nav.Link
+                className="navLink"
+                onClick={() => scrollToSection("projectsSection")}
+              >
+                &#60;Projects /&#62;
+              </Nav.Link>
+              <Nav.Link
+                className="navLink"
+                onClick={() => scrollToSection("contactSection")}
+              >
+                &#60;Contact /&#62;
+              </Nav.Link>
+            </div>
+            <div className="navbar-logo mx-auto">
+              <img src={logo} alt="Victor Borges logo" />
+            </div>
+            <div className="navbar-social mx-auto">
+              <Nav.Link
+                className="navLink"
+                href="https://github.com/victorborges721"
+                target="_blank"
+              >
+                GitHub
+              </Nav.Link>
+              <Nav.Link
+                className="navLink"
+                href="https://www.linkedin.com/in/victormborges/"
+                target="_blank"
+              >
+                LinkedIn
+              </Nav.Link>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

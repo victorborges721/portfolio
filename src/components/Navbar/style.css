@@ -1,8 +1,18 @@
-/* .navbar-nav {
-  display: flex !important;
-  justify-content: center !important;
-} */
-
 .navLink {
-  color: #faf3dd !important;
+  color: #ffffff !important;
+  margin: 0 1rem;
+}
+.navbar-links {
+  display: flex;
+  justify-self: flex-start !important;
+}
+.navbar-logo {
+  display: flex;
+  height: 2.5rem;
+  width: auto;
+  justify-self: center !important;
+}
+.navbar-social {
+  display: flex;
+  justify-self: flex-end !important;
 }

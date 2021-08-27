@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section
       id="projectsSection"
-      style={{ backgroundColor: "#ffc9b9", minHeight: "75vh" }}
+      style={{ backgroundColor: "#e5e5e5", minHeight: "75vh" }}
     >
       <Container>
         <h1>&#60;Projects&#62;</h1>

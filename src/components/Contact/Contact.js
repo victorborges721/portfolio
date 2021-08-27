@@ -29,7 +29,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contactSection" style={{ backgroundColor: "#fefee3" }}>
+    <section id="contactSection" style={{ backgroundColor: "#000000" }}>
       <Container>
         <h1>&#60;Contact&#62;</h1>
         <h4>Want to connect? Submit the form below to reach me!</h4>
@@ -44,7 +44,7 @@ const Contact = () => {
               <p>Thanks for reaching out to me. I'll be in touch soon!</p>
             </Alert>
           )}
-          <Form onSubmit={sendEmail}>
+          <Form onSubmit={sendEmail} className="my-4">
             <FloatingLabel
               controlId="floatingInput"
               label="Email Address"
