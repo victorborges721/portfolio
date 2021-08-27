@@ -1,8 +1,10 @@
+// const kudoboard_name = "Kudoboard";
+// const hyperlink = kudoboard_name.link("https://www.kudoboard.com/");
+
 const projects = [
   {
     project_name: "Kudoboard",
-    project_desc:
-      "Celebrate your friends and family by creating a board and making posts with GIFs, photos, and personal messages! This app is a clone of Kudoboard with additional CRUD functionality.",
+    project_desc: `Celebrate your friends and family by creating a board and making posts with GIFs, photos, and personal messages! This app is a clone of Kudoboard with additional CRUD functionality.`,
     project_screenshot: "/assets/kudoboard_screenshot.png",
     project_skills: [
       "HTML & CSS",
