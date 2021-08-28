@@ -8,6 +8,7 @@ import {
   Col,
   Badge,
 } from "react-bootstrap";
+import { IconContext } from "react-icons";
 import { BsFillEyeFill } from "react-icons/bs";
 import { BiCodeAlt } from "react-icons/bi";
 import "./style.css";
@@ -79,15 +80,18 @@ const ProjectModal = ({ openProjectModal, setOpenProjectModal, project }) => {
                   href={project.project_live_link}
                   target="_blank"
                 >
-                  <BsFillEyeFill />
-                  Demo
+                  <IconContext.Provider
+                    value={{ style: { verticalAlign: "middle" } }}
+                  >
+                    <BsFillEyeFill /> &nbsp; Demo
+                  </IconContext.Provider>
                 </Button>
                 <Button
                   className="project-modal-button"
                   href={project.project_github_link}
                   target="_blank"
                 >
-                  <BiCodeAlt /> Code
+                  <BiCodeAlt /> &nbsp; Code
                 </Button>
               </div>
             </Col>

@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Navbar, Nav, Row, Col } from "react-bootstrap";
 import logo from "../../images/V.png";
+import { IconContext } from "react-icons";
+import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
 import "./style.css";
 
 const Navigationbar = ({ scrollToSection }) => {
@@ -43,14 +45,22 @@ const Navigationbar = ({ scrollToSection }) => {
                 href="https://github.com/victorborges721"
                 target="_blank"
               >
-                GitHub
+                <IconContext.Provider
+                  value={{ size: "1.6rem", style: { verticalAlign: "middle" } }}
+                >
+                  <AiFillGithub />
+                </IconContext.Provider>
               </Nav.Link>
               <Nav.Link
                 className="navLink"
                 href="https://www.linkedin.com/in/victormborges/"
                 target="_blank"
               >
-                LinkedIn
+                <IconContext.Provider
+                  value={{ size: "1.6rem", verticalAlign: "middle" }}
+                >
+                  <AiOutlineLinkedin />
+                </IconContext.Provider>
               </Nav.Link>
             </div>
           </Nav>
