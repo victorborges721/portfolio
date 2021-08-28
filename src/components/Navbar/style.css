@@ -16,3 +16,16 @@
   display: flex;
   justify-self: flex-end !important;
 }
+
+/* .navbar-toggler-icon {
+  color: white !important;
+} */
+
+@media only screen and (max-width: 992px) {
+  .navbar-logo {
+    display: none;
+  }
+  .navbar-links {
+    flex-direction: column;
+  }
+}

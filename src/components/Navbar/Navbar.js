@@ -11,6 +11,7 @@ const Navigationbar = ({ scrollToSection }) => {
       style={{ backgroundColor: "#000000", borderBottom: "1px solid white" }}
       expand="lg"
       sticky="top"
+      variant="dark"
     >
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

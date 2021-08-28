@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
               <Card.Title>{project.project_name}</Card.Title>
               <Card.Text>{project.project_desc}</Card.Text>
               <Button
-                variant="primary"
+                style={{ backgroundColor: "#000000" }}
                 onClick={() => setOpenProjectModal(true)}
               >
                 View Project

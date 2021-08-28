@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Alert, Container, Form, Button, FloatingLabel } from "react-bootstrap";
 import emailjs from "emailjs-com";
+import { BiMailSend } from "react-icons/bi";
 import "./style.css";
 
 const Contact = () => {
@@ -31,8 +32,7 @@ const Contact = () => {
   return (
     <section id="contactSection" style={{ backgroundColor: "#000000" }}>
       <Container>
-        <h1>&#60;Contact&#62;</h1>
-        <h4>Want to connect? Submit the form below to reach me!</h4>
+        <h2>&#60;Contact&#62;</h2>
         <Container>
           {showAlert && (
             <Alert
@@ -81,12 +81,21 @@ const Contact = () => {
                 name="message"
               />
             </FloatingLabel>
-            <Button variant="primary" type="submit" className="mb-3">
-              Send
+            <Button
+              style={{
+                backgroundColor: "#fca311",
+                color: "#000000",
+                borderColor: "#fca311",
+              }}
+              type="submit"
+              className="mb-3"
+            >
+              <BiMailSend />
+              {"  "} Send
             </Button>
           </Form>
         </Container>
-        <h1>&#60;/Contact&#62;</h1>
+        <h2>&#60;/Contact&#62;</h2>
       </Container>
     </section>
   );
