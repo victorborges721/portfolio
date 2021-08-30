@@ -80,11 +80,7 @@ const ProjectModal = ({ openProjectModal, setOpenProjectModal, project }) => {
                   href={project.project_live_link}
                   target="_blank"
                 >
-                  <IconContext.Provider
-                    value={{ style: { verticalAlign: "middle" } }}
-                  >
-                    <BsFillEyeFill /> &nbsp; Demo
-                  </IconContext.Provider>
+                  <BsFillEyeFill /> &nbsp; Demo
                 </Button>
                 <Button
                   className="project-modal-button"

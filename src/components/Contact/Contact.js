@@ -32,8 +32,8 @@ const Contact = () => {
   return (
     <section id="contactSection" style={{ backgroundColor: "#000000" }}>
       <Container>
-        <h2 className="section-header contact-header">&#60;Contact&#62;</h2>
-        <Container>
+        <Container className="contact-container">
+          <h2 className="section-header contact-header">&#60;Contact&#62;</h2>
           {showAlert && (
             <Alert
               variant="success"
@@ -44,6 +44,10 @@ const Contact = () => {
               <p>Thanks for reaching out to me. I'll be in touch soon!</p>
             </Alert>
           )}
+          <h4 style={{ color: "white" }}>
+            Want to connect? Fill out this form or email me at
+            victor.borges.721@gmail.com.
+          </h4>
           <Form onSubmit={sendEmail} className="contact-form my-4">
             <FloatingLabel
               controlId="floatingInput"
@@ -94,8 +98,8 @@ const Contact = () => {
               {"  "} Send
             </Button>
           </Form>
+          <h2 className="section-header contact-header">&#60;/Contact&#62;</h2>
         </Container>
-        <h2 className="section-header contact-header">&#60;/Contact&#62;</h2>
       </Container>
     </section>
   );

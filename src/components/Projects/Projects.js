@@ -12,15 +12,11 @@ const Projects = () => {
         backgroundColor: "#e5e5e5",
       }}
     >
-      <Container>
+      <Container className="projects-container">
         <h2 className="section-header">&#60;Projects&#62;</h2>
-        {/* <CardColumns> */}
-        <Container className="projects-container">
-          {projects.map((project, index) => {
-            return <ProjectCard key={index} project={project} />;
-          })}
-        </Container>
-        {/* </CardColumns> */}
+        {projects.map((project, index) => {
+          return <ProjectCard key={index} project={project} />;
+        })}
         <h2 className="section-header">&#60;/Projects&#62;</h2>
       </Container>
     </section>

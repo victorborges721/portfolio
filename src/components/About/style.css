@@ -10,3 +10,18 @@
   display: inline-block;
   color: #fca311;
 }
+
+.resume-button {
+  background-color: #fca311;
+  border-color: #fca311;
+  color: #000;
+  margin-top: 1rem;
+}
+
+.resume-button:hover,
+.resume-button:focus,
+.resume-button:active {
+  background-color: #fff !important;
+  border-color: #fff !important;
+  color: #000;
+}

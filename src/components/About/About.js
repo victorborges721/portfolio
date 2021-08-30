@@ -1,6 +1,9 @@
 import React from "react";
-import { Container, Image, Row, Col } from "react-bootstrap";
+import { Button, Container, Image, Row, Col } from "react-bootstrap";
 import borges_pic from "../../images/borges_pic.jpg";
+import resume from "../../images/VictorBorges_Resume.pdf";
+import { IconContext } from "react-icons";
+import { GrDocumentPdf } from "react-icons/gr";
 import "./style.css";
 
 const About = () => {
@@ -36,6 +39,10 @@ const About = () => {
                 thought I'd give it a shot. I wasn't too surprised when I loved
                 it!
               </h5>
+              <Button href={resume} className="resume-button" download>
+                <GrDocumentPdf />
+                &nbsp; Resume
+              </Button>
             </Container>
 
             <h2 className="about-header section-header">&#60;/About&#62;</h2>

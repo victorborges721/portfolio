@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
 
   return (
     <React.Fragment>
-      <Card className="mb-3 grow" style={{ width: "75%" }}>
+      <Card className="mb-3 grow shadow" style={{ width: "75%" }}>
         <Row>
           <Col md={6}>
             <Card.Img variant="top" src={project.project_screenshot} />
@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
               <Card.Title>{project.project_name}</Card.Title>
               <Card.Text>{project.project_desc}</Card.Text>
               <Button
-                style={{ backgroundColor: "#000000" }}
+                style={{ backgroundColor: "#000000", borderColor: "#000000" }}
                 onClick={() => setOpenProjectModal(true)}
                 className="card-button"
               >

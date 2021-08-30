@@ -37,6 +37,7 @@
   justify-content: center;
   margin-right: 5px;
   background-color: #000000;
+  border-color: #000;
 }
 
 .project-modal-button:hover,
