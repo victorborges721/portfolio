@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
 
   return (
     <React.Fragment>
-      <Card className="mb-3" style={{ width: "75%" }}>
+      <Card className="mb-3 grow" style={{ width: "75%" }}>
         <Row>
           <Col md={6}>
             <Card.Img variant="top" src={project.project_screenshot} />

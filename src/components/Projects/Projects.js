@@ -10,17 +10,18 @@ const Projects = () => {
       id="projectsSection"
       style={{
         backgroundColor: "#e5e5e5",
-        minHeight: "75vh",
       }}
     >
-      <Container style={{ color: "white !important" }}>
-        <h2>&#60;Projects&#62;</h2>
+      <Container>
+        <h2 className="section-header">&#60;Projects&#62;</h2>
         {/* <CardColumns> */}
-        {projects.map((project, index) => {
-          return <ProjectCard key={index} project={project} />;
-        })}
+        <Container className="projects-container">
+          {projects.map((project, index) => {
+            return <ProjectCard key={index} project={project} />;
+          })}
+        </Container>
         {/* </CardColumns> */}
-        <h2>&#60;/Projects&#62;</h2>
+        <h2 className="section-header">&#60;/Projects&#62;</h2>
       </Container>
     </section>
   );

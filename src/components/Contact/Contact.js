@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <section id="contactSection" style={{ backgroundColor: "#000000" }}>
       <Container>
-        <h2>&#60;Contact&#62;</h2>
+        <h2 className="section-header contact-header">&#60;Contact&#62;</h2>
         <Container>
           {showAlert && (
             <Alert
@@ -44,7 +44,7 @@ const Contact = () => {
               <p>Thanks for reaching out to me. I'll be in touch soon!</p>
             </Alert>
           )}
-          <Form onSubmit={sendEmail} className="my-4">
+          <Form onSubmit={sendEmail} className="contact-form my-4">
             <FloatingLabel
               controlId="floatingInput"
               label="Email Address"
@@ -95,7 +95,7 @@ const Contact = () => {
             </Button>
           </Form>
         </Container>
-        <h2>&#60;/Contact&#62;</h2>
+        <h2 className="section-header contact-header">&#60;/Contact&#62;</h2>
       </Container>
     </section>
   );

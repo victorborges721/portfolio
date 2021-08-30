@@ -8,5 +8,17 @@
 }
 
 section {
-  padding: 5rem 0;
+  padding: 4rem 0;
+}
+
+.section-header {
+  margin: 1.5rem 0;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
 }

@@ -15,15 +15,18 @@ const About = () => {
                 alt="Image of Victor Borges"
                 roundedCircle
                 fluid
+                className="grow"
               />
             </div>
           </Col>
           <Col md={8}>
-            <h2>&#60;About&#62;</h2>
-            <Container>
+            <h2 className="about-header section-header">&#60;About&#62;</h2>
+            <Container className="about-info">
               <h1>
-                Hi! I'm Victor, a self-taught Front-End Web Developer based in
-                New York.
+                Hi! I'm Victor, a self-taught{" "}
+                <span className="about-highlight grow">
+                  Front-End Web Developer.
+                </span>
               </h1>
               <h5>
                 I recently transitioned out of Higher Education/Student Affairs
@@ -35,7 +38,7 @@ const About = () => {
               </h5>
             </Container>
 
-            <h2>&#60;/About&#62;</h2>
+            <h2 className="about-header section-header">&#60;/About&#62;</h2>
           </Col>
         </Row>
       </Container>

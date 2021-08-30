@@ -1,7 +1,19 @@
+.send-button {
+  margin-bottom: 0 !important;
+}
+
 .send-button:hover,
 .send-button:focus,
 .send-button:active {
   background-color: #fff !important;
   border-color: #fff !important;
   color: #000;
+}
+
+.contact-form {
+  margin: 0 !important;
+}
+
+.contact-header {
+  color: #fff;
 }

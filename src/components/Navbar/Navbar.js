@@ -19,19 +19,19 @@ const Navigationbar = ({ scrollToSection }) => {
           <Nav style={{ width: "100%" }}>
             <div className="navbar-links mx-4">
               <Nav.Link
-                className="navLink"
+                className="navLink grow"
                 onClick={() => scrollToSection("aboutSection")}
               >
                 &#60;About /&#62;
               </Nav.Link>
               <Nav.Link
-                className="navLink"
+                className="navLink grow"
                 onClick={() => scrollToSection("projectsSection")}
               >
                 &#60;Projects /&#62;
               </Nav.Link>
               <Nav.Link
-                className="navLink"
+                className="navLink grow"
                 onClick={() => scrollToSection("contactSection")}
               >
                 &#60;Contact /&#62;
@@ -42,7 +42,7 @@ const Navigationbar = ({ scrollToSection }) => {
             </div>
             <div className="navbar-social mx-auto">
               <Nav.Link
-                className="navLink"
+                className="navLink grow"
                 href="https://github.com/victorborges721"
                 target="_blank"
               >
@@ -53,7 +53,7 @@ const Navigationbar = ({ scrollToSection }) => {
                 </IconContext.Provider>
               </Nav.Link>
               <Nav.Link
-                className="navLink"
+                className="navLink grow"
                 href="https://www.linkedin.com/in/victormborges/"
                 target="_blank"
               >
