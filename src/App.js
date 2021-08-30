@@ -2,6 +2,7 @@ import "./App.css";
 import { useRef } from "react";
 import NavigationBar from "./components/Navbar";
 import About from "./components/About";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
@@ -20,6 +21,7 @@ function App() {
     <main>
       <NavigationBar scrollToSection={scrollToSection} />
       <About />
+      <Skills />
       <Projects />
       <Contact />
     </main>

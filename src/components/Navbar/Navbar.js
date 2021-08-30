@@ -26,6 +26,12 @@ const Navigationbar = ({ scrollToSection }) => {
               </Nav.Link>
               <Nav.Link
                 className="navLink grow"
+                onClick={() => scrollToSection("skillsSection")}
+              >
+                &#60;Skills /&#62;
+              </Nav.Link>
+              <Nav.Link
+                className="navLink grow"
                 onClick={() => scrollToSection("projectsSection")}
               >
                 &#60;Projects /&#62;
