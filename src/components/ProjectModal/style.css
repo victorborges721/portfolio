@@ -38,3 +38,11 @@
   margin-right: 5px;
   background-color: #000000;
 }
+
+.project-modal-button:hover,
+.project-modal-button:focus,
+.project-modal-button:active {
+  background-color: #fca311 !important;
+  border-color: #fca311 !important;
+  color: #000;
+}

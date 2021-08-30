@@ -20,6 +20,7 @@ const ProjectCard = ({ project }) => {
               <Button
                 style={{ backgroundColor: "#000000" }}
                 onClick={() => setOpenProjectModal(true)}
+                className="card-button"
               >
                 View Project
               </Button>

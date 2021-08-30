@@ -88,7 +88,7 @@ const Contact = () => {
                 borderColor: "#fca311",
               }}
               type="submit"
-              className="mb-3"
+              className="mb-3 send-button"
             >
               <BiMailSend />
               {"  "} Send
