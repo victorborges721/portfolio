@@ -9,15 +9,15 @@ const Projects = () => {
     <section
       id="projectsSection"
       style={{
-        backgroundColor: "#e5e5e5",
+        backgroundColor: "#000000",
       }}
     >
       <Container className="projects-container">
-        <h2 className="section-header">&#60;Projects&#62;</h2>
+        <h2 className="section-header projects-header">&#60;Projects&#62;</h2>
         {projects.map((project, index) => {
           return <ProjectCard key={index} project={project} />;
         })}
-        <h2 className="section-header">&#60;/Projects&#62;</h2>
+        <h2 className="section-header projects-header">&#60;/Projects&#62;</h2>
       </Container>
     </section>
   );

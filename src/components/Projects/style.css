@@ -7,3 +7,7 @@
 .card:last-child {
   margin-bottom: 0 !important;
 }
+
+.projects-header {
+  color: #fff;
+}
