@@ -5,9 +5,9 @@
 .send-button:hover,
 .send-button:focus,
 .send-button:active {
-  background-color: #fff !important;
-  border-color: #fff !important;
-  color: #000;
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fca311 !important;
 }
 
 .contact-form {
@@ -16,7 +16,7 @@
 }
 
 .contact-header {
-  color: #fff;
+  color: #000;
 }
 
 .contact-container {

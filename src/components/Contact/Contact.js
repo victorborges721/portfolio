@@ -30,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contactSection" style={{ backgroundColor: "#000000" }}>
+    <section id="contactSection" style={{ backgroundColor: "#e5e5e5" }}>
       <Container>
         <Container className="contact-container">
           <h2 className="section-header contact-header">&#60;Contact&#62;</h2>
@@ -44,7 +44,7 @@ const Contact = () => {
               <p>Thanks for reaching out to me. I'll be in touch soon!</p>
             </Alert>
           )}
-          <h4 style={{ color: "white" }}>
+          <h4 style={{ color: "#000" }}>
             Want to connect? Fill out this form or email me at
             victor.borges.721@gmail.com.
           </h4>

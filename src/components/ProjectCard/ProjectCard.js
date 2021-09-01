@@ -18,7 +18,11 @@ const ProjectCard = ({ project }) => {
               <Card.Title>{project.project_name}</Card.Title>
               <Card.Text>{project.project_desc}</Card.Text>
               <Button
-                style={{ backgroundColor: "#000000", borderColor: "#000000" }}
+                style={{
+                  backgroundColor: "#fca311",
+                  borderColor: "#fca311",
+                  color: "#000",
+                }}
                 onClick={() => setOpenProjectModal(true)}
                 className="card-button"
               >
