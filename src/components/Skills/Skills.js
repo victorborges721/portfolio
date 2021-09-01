@@ -106,8 +106,10 @@ const Skills = () => {
               <Col style={{ padding: "0 0 0 12px" }}>
                 <ListGroup variant="flush" style={{ textAlign: "center" }}>
                   <OverlayTrigger
-                    placement="bottom"
-                    overlay={() => popover("I like feedback")}
+                    placement="top"
+                    overlay={popover(
+                      "I seek feedback from my supervisor and peers to ensure I’m meeting expectations. I provide feedback in an appropriate setting to ensure the individual feels supported."
+                    )}
                   >
                     <ListGroup.Item action>
                       <img
@@ -119,81 +121,144 @@ const Skills = () => {
                       &nbsp; Constructive Feedback
                     </ListGroup.Item>
                   </OverlayTrigger>
-                  <ListGroup.Item action>
-                    <img
-                      src={conflict}
-                      alt="Conflict Mediation"
-                      width="28"
-                      height="28"
-                    />
-                    &nbsp; Conflict Mediation
-                  </ListGroup.Item>
-                  <ListGroup.Item action>
-                    <img
-                      src={communication}
-                      alt="Communication"
-                      width="28"
-                      height="28"
-                    />
-                    &nbsp; Communication
-                  </ListGroup.Item>
-                  <ListGroup.Item action>
-                    <img
-                      src={positivity}
-                      alt="Positivity"
-                      width="28"
-                      height="28"
-                    />
-                    &nbsp; Positivity/Optimism
-                  </ListGroup.Item>
-                  <ListGroup.Item action>
-                    <img src={empathy} alt="Empathy" width="28" height="28" />
-                    &nbsp; Empathy
-                  </ListGroup.Item>
+                  <OverlayTrigger
+                    placement="top"
+                    overlay={popover(
+                      "I have experience helping supervisees resolve conflict that can impact a team dynamic."
+                    )}
+                  >
+                    <ListGroup.Item action>
+                      <img
+                        src={conflict}
+                        alt="Conflict Mediation"
+                        width="28"
+                        height="28"
+                      />
+                      &nbsp; Conflict Mediation
+                    </ListGroup.Item>
+                  </OverlayTrigger>
+                  <OverlayTrigger
+                    placement="top"
+                    overlay={popover(
+                      "I communicate clearly and effectively to limit misunderstanding. I prepare in advance for challenging conversations or presentations."
+                    )}
+                  >
+                    <ListGroup.Item action>
+                      <img
+                        src={communication}
+                        alt="Communication"
+                        width="28"
+                        height="28"
+                      />
+                      &nbsp; Communication
+                    </ListGroup.Item>
+                  </OverlayTrigger>
+                  <OverlayTrigger
+                    placement="top"
+                    overlay={popover(
+                      "My positive attitude has an impact on those I work with and supports a friendly work environment."
+                    )}
+                  >
+                    <ListGroup.Item action>
+                      <img
+                        src={positivity}
+                        alt="Positivity"
+                        width="28"
+                        height="28"
+                      />
+                      &nbsp; Positivity/Optimism
+                    </ListGroup.Item>
+                  </OverlayTrigger>
+                  <OverlayTrigger
+                    placement="top"
+                    overlay={popover(
+                      "I have a strong understanding of how my actions and words can impact others. I can put myself in the shoes of others to better understand their perspective."
+                    )}
+                  >
+                    <ListGroup.Item action>
+                      <img src={empathy} alt="Empathy" width="28" height="28" />
+                      &nbsp; Empathy
+                    </ListGroup.Item>
+                  </OverlayTrigger>
                 </ListGroup>
               </Col>
               <Col style={{ padding: "0 12px 0 0" }}>
                 <ListGroup variant="flush" style={{ textAlign: "center" }}>
-                  <ListGroup.Item action>
-                    <img
-                      src={inclusion}
-                      alt="Inclusion"
-                      width="28"
-                      height="28"
-                    />
-                    &nbsp; Inclusion
-                  </ListGroup.Item>
-                  <ListGroup.Item action>
-                    <img
-                      src={accountable}
-                      alt="Accountability"
-                      width="28"
-                      height="28"
-                    />
-                    &nbsp; Accountability
-                  </ListGroup.Item>
-                  <ListGroup.Item action>
-                    <img
-                      src={approachable}
-                      alt="Approachability"
-                      width="28"
-                      height="28"
-                    />
-                    &nbsp; Approachability
-                  </ListGroup.Item>
-                  <ListGroup.Item action>
-                    <img
-                      src={appreciation}
-                      alt="Appreciation/Praise"
-                      width="28"
-                      height="28"
-                    />
-                    &nbsp; Appreciation/Praise
-                  </ListGroup.Item>
-                  <ListGroup.Item action>
-                    <MdSupervisorAccount size={28} />
-                    &nbsp; Supervision
-                  </ListGroup.Item>
+                  <OverlayTrigger
+                    placement="top"
+                    overlay={popover(
+                      "I’ve been trained on various diversity and inclusion topics, including sexual orientation, gender identity, ability, race, and ethnicity. There is always more to learn!"
+                    )}
+                  >
+                    <ListGroup.Item action>
+                      <img
+                        src={inclusion}
+                        alt="Inclusion"
+                        width="28"
+                        height="28"
+                      />
+                      &nbsp; Inclusion
+                    </ListGroup.Item>
+                  </OverlayTrigger>
+                  <OverlayTrigger
+                    placement="top"
+                    overlay={popover(
+                      "I hold myself accountable for projects I agree to complete. I hold supervisees accountable for what is expected from them."
+                    )}
+                  >
+                    <ListGroup.Item action>
+                      <img
+                        src={accountable}
+                        alt="Accountability"
+                        width="28"
+                        height="28"
+                      />
+                      &nbsp; Accountability
+                    </ListGroup.Item>
+                  </OverlayTrigger>
+                  <OverlayTrigger
+                    placement="top"
+                    overlay={popover(
+                      "I have an approachable demeanor that invites others in and makes them feel comfortable around me."
+                    )}
+                  >
+                    <ListGroup.Item action>
+                      <img
+                        src={approachable}
+                        alt="Approachability"
+                        width="28"
+                        height="28"
+                      />
+                      &nbsp; Approachability
+                    </ListGroup.Item>
+                  </OverlayTrigger>
+                  <OverlayTrigger
+                    placement="top"
+                    overlay={popover(
+                      "I enjoy celebrating the accomplishments of others and making them feel appreciated."
+                    )}
+                  >
+                    <ListGroup.Item action>
+                      <img
+                        src={appreciation}
+                        alt="Appreciation/Praise"
+                        width="28"
+                        height="28"
+                      />
+                      &nbsp; Appreciation/Praise
+                    </ListGroup.Item>
+                  </OverlayTrigger>
+                  <OverlayTrigger
+                    placement="top"
+                    overlay={popover(
+                      "I have experience supervising staff, including providing professional development opportunities, supporting them in their personal/professional lives, and ensuring they meet expectations."
+                    )}
+                  >
+                    <ListGroup.Item action>
+                      <MdSupervisorAccount size={28} />
+                      &nbsp; Supervision
+                    </ListGroup.Item>
+                  </OverlayTrigger>
                 </ListGroup>
               </Col>
             </Row>
