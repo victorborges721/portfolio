@@ -1,5 +1,4 @@
 import "./App.css";
-import { useRef } from "react";
 import NavigationBar from "./components/Navbar";
 import About from "./components/About";
 import Skills from "./components/Skills";

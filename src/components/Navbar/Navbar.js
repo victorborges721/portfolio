@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Navbar, Nav, Row, Col } from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 import logo from "../../images/V.png";
 import { IconContext } from "react-icons";
 import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";

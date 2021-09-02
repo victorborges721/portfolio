@@ -8,7 +8,6 @@ import {
   Col,
   Badge,
 } from "react-bootstrap";
-import { IconContext } from "react-icons";
 import { BsFillEyeFill } from "react-icons/bs";
 import { BiCodeAlt } from "react-icons/bi";
 import "./style.css";

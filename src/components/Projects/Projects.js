@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, CardColumns } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import ProjectCard from "../ProjectCard";
 import projects from "../../data/projects";
 import "./style.css";
