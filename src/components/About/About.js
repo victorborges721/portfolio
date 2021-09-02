@@ -31,12 +31,27 @@ const About = () => {
                 </span>
               </h1>
               <h5>
-                I recently transitioned out of Higher Education/Student Affairs
-                to pursue web development. Since I've always gravitated toward
-                opportunities to learn new tech systems and software, and I
-                often served as 'tech-support' for my colleagues and peers, I
-                thought I'd give it a shot. I wasn't too surprised when I loved
-                it!
+                Becoming a self-taught web developer has had its challenges, but
+                I feel this route allowed me to try out more areas of web
+                development than if I had taken a more traditional route. It
+                also gave me the flexibility I needed to decide that front-end
+                web development was the path for me. I’m excited to enter the
+                field full-time and to connect with other developers who I can
+                learn from and be inspired by to make applications that have a
+                lasting impact.
+              </h5>
+              <h5>
+                I’m making the transition into web development from Higher
+                Education, where I developed a host of skills including an
+                understanding of diversity, equity, and inclusion, effective
+                written and oral communication, and empathy. I plan to bring
+                these skills with me to your organization to promote a positive
+                team environment.
+              </h5>
+              <h5>
+                Out of the office you’ll find me playing Pokémon Go, theorizing
+                about what will happen in the next Marvel film/show, or singing
+                in an a cappella group.
               </h5>
               <Button href={resume} className="resume-button" download>
                 <GrDocumentPdf />
