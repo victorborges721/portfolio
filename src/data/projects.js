@@ -15,7 +15,7 @@ const projects = [
       "EMAILJS",
     ],
     project_gif_link: "/assets/kudoboard_gif.gif",
-    project_live_link: "https://borges-kudoboard.netlify.app/",
+    project_live_link: "https://kudoboard.victorborges.me/",
     project_github_link: "https://github.com/victorborges721/kudoboard",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
       "API",
     ],
     project_gif_link: "/assets/pokedex_gif.gif",
-    project_live_link: "https://borges-pokedex.netlify.app/",
+    project_live_link: "https://pokedex.victorborges.me/",
     project_github_link: "https://github.com/victorborges721/pokedex",
   },
 ];
