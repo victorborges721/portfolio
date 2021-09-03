@@ -3,8 +3,8 @@
 
 const projects = [
   {
-    project_name: "Kudoboard",
-    project_desc: `Celebrate your friends and family by creating a board and making posts with GIFs, photos, and personal messages! This app is a clone of Kudoboard with additional CRUD functionality.`,
+    project_name: "Kudoboard (Clone)",
+    project_desc: `Celebrate your friends and family by creating a board and making posts with GIFs, photos, and personal messages! This app uses dynamic React-Router pages to let a user create and add to their own board, and EmailJS to deliver the board to its recipient. A clone of Kudoboard with additional CRUD functionality.`,
     project_screenshot: "/assets/kudoboard_screenshot.png",
     project_skills: [
       "HTML & CSS",
@@ -21,7 +21,7 @@ const projects = [
   {
     project_name: "Pokedex",
     project_desc:
-      "This Pokedex uses the PokeAPI to help you learn more about each Pokemon, including its type(s), weaknesses, abilities, and more.",
+      "This Pokedex uses the PokeAPI to help you learn more about each Pokemon, including its type(s), weaknesses, abilities, and more. View a paginated list of Pokémon or search for a specific Pokemon.",
     project_screenshot: "/assets/pokedex_screenshot.png",
     project_skills: [
       "HTML & CSS",
