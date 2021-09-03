@@ -16,12 +16,27 @@
 
 .skill-group {
   margin-right: 18px;
+  width: 34rem;
+}
+
+.left-col {
+  padding: 0 0 0 12px;
+}
+
+.right-col {
+  padding: 0 12px 0 0;
 }
 
 @media only screen and (max-width: 600px) {
-  .skill-group-1,
-  .skill-group-2 {
-    max-width: 80%;
+  .skill-group {
+    width: 100%;
+  }
+  .left-col,
+  .right-col {
+    padding: 0 12px;
+  }
+  .list-group .list-group-item:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   }
 }
 
