@@ -11,7 +11,11 @@ const ProjectCard = ({ project }) => {
       <Card className="mb-3 grow shadow" style={{ width: "80%" }}>
         <Row>
           <Col md={6}>
-            <Card.Img variant="top" src={project.project_screenshot} />
+            <Card.Img
+              variant="top"
+              src={project.project_screenshot}
+              alt={`${project.project_name} screenshot`}
+            />
           </Col>
           <Col md={6} style={{ display: "flex", alignItems: "center" }}>
             <Card.Body>

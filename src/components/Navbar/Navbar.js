@@ -51,6 +51,7 @@ const Navigationbar = ({ scrollToSection }) => {
                 className="navLink grow"
                 href="https://github.com/victorborges721"
                 target="_blank"
+                title="GitHub link"
               >
                 <IconContext.Provider
                   value={{ size: "1.6rem", style: { verticalAlign: "middle" } }}
@@ -62,6 +63,7 @@ const Navigationbar = ({ scrollToSection }) => {
                 className="navLink grow"
                 href="https://www.linkedin.com/in/victormborges/"
                 target="_blank"
+                title="LinkedIn link"
               >
                 <IconContext.Provider
                   value={{ size: "1.6rem", verticalAlign: "middle" }}

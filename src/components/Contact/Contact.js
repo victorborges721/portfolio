@@ -50,7 +50,7 @@ const Contact = () => {
           </h4>
           <Form onSubmit={sendEmail} className="contact-form my-4">
             <FloatingLabel
-              controlId="floatingInput"
+              controlId="floatingInputEmail"
               label="Email Address"
               className="my-3"
             >
@@ -62,7 +62,7 @@ const Contact = () => {
             </FloatingLabel>
 
             <FloatingLabel
-              controlId="floatingInput"
+              controlId="floatingInputName"
               label="Your Name"
               className="mb-3"
             >
@@ -74,7 +74,7 @@ const Contact = () => {
             </FloatingLabel>
 
             <FloatingLabel
-              controlId="floatingInput"
+              controlId="floatingInputMessage"
               label="Your Message"
               className="mb-3"
             >

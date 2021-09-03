@@ -87,7 +87,7 @@ const Skills = () => {
                     &nbsp; VSCode
                   </ListGroup.Item>
                   <ListGroup.Item>
-                    <SiCanva size={28} />
+                    <SiCanva size={28} title="Canva logo" />
                     &nbsp; Canva
                   </ListGroup.Item>
                   <ListGroup.Item>
@@ -114,7 +114,7 @@ const Skills = () => {
                     <ListGroup.Item action>
                       <img
                         src={feedback}
-                        alt="Constructive Feedback"
+                        alt="Constructive Feedback icon"
                         width="28"
                         height="28"
                       />
@@ -130,7 +130,7 @@ const Skills = () => {
                     <ListGroup.Item action>
                       <img
                         src={conflict}
-                        alt="Conflict Mediation"
+                        alt="Conflict Mediation icon"
                         width="28"
                         height="28"
                       />
@@ -146,7 +146,7 @@ const Skills = () => {
                     <ListGroup.Item action>
                       <img
                         src={communication}
-                        alt="Communication"
+                        alt="Communication icon"
                         width="28"
                         height="28"
                       />
@@ -162,7 +162,7 @@ const Skills = () => {
                     <ListGroup.Item action>
                       <img
                         src={positivity}
-                        alt="Positivity"
+                        alt="Positivity icon"
                         width="28"
                         height="28"
                       />
@@ -176,7 +176,12 @@ const Skills = () => {
                     )}
                   >
                     <ListGroup.Item action>
-                      <img src={empathy} alt="Empathy" width="28" height="28" />
+                      <img
+                        src={empathy}
+                        alt="Empathy icon"
+                        width="28"
+                        height="28"
+                      />
                       &nbsp; Empathy
                     </ListGroup.Item>
                   </OverlayTrigger>
@@ -193,7 +198,7 @@ const Skills = () => {
                     <ListGroup.Item action>
                       <img
                         src={inclusion}
-                        alt="Inclusion"
+                        alt="Inclusion icon"
                         width="28"
                         height="28"
                       />
@@ -209,7 +214,7 @@ const Skills = () => {
                     <ListGroup.Item action>
                       <img
                         src={accountable}
-                        alt="Accountability"
+                        alt="Accountability icon"
                         width="28"
                         height="28"
                       />
@@ -225,7 +230,7 @@ const Skills = () => {
                     <ListGroup.Item action>
                       <img
                         src={approachable}
-                        alt="Approachability"
+                        alt="Approachability icon"
                         width="28"
                         height="28"
                       />
@@ -241,7 +246,7 @@ const Skills = () => {
                     <ListGroup.Item action>
                       <img
                         src={appreciation}
-                        alt="Appreciation/Praise"
+                        alt="Appreciation/Praise icon"
                         width="28"
                         height="28"
                       />
