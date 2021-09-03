@@ -32,7 +32,13 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 600px) {
+  .about-header {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
   .profile-photo {
     max-width: 50%;
   }
