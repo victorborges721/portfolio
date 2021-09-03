@@ -10,18 +10,16 @@ const About = () => {
     <section id="aboutSection" style={{ backgroundColor: "#000000" }}>
       <Container>
         <Row>
-          <Col md={4} className="col-photo">
-            <div>
-              <Image
-                src={borges_pic}
-                alt="Image of Victor Borges"
-                roundedCircle
-                fluid
-                className="grow"
-              />
-            </div>
+          <Col xs={12} lg={4} className="col-photo">
+            <Image
+              src={borges_pic}
+              alt="Image of Victor Borges"
+              roundedCircle
+              fluid
+              className="grow profile-photo"
+            />
           </Col>
-          <Col md={8}>
+          <Col xs={12} lg={8}>
             <h2 className="about-header section-header">&#60;About&#62;</h2>
             <Container className="about-info">
               <h1>

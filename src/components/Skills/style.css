@@ -18,11 +18,18 @@
   margin-right: 18px;
 }
 
+@media only screen and (max-width: 600px) {
+  .skill-group-1,
+  .skill-group-2 {
+    max-width: 80%;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .skills {
     flex-direction: column;
   }
-  .skill-group {
+  .skill-group-1 {
     margin-right: 0;
     margin-bottom: 18px;
   }

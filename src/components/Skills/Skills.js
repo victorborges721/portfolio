@@ -43,7 +43,7 @@ const Skills = () => {
       <Container className="skills-container">
         <h2 className="section-header">&#60;Skills&#62;</h2>
         <div className="skills">
-          <Card style={{ width: "34rem" }} className="skill-group">
+          <Card style={{ width: "34rem" }} className="skill-group-1">
             <Card.Header as="h5" style={{ textAlign: "center" }}>
               Technology
             </Card.Header>
@@ -98,7 +98,7 @@ const Skills = () => {
               </Col>
             </Row>
           </Card>
-          <Card style={{ width: "34rem" }}>
+          <Card style={{ width: "34rem" }} className="skill-group-2">
             <Card.Header as="h5" style={{ textAlign: "center" }}>
               People
             </Card.Header>
