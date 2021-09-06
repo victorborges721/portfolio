@@ -51,6 +51,14 @@ const Skills = () => {
               <Col className="left-col" xs={12} md={6}>
                 <ListGroup variant="flush" style={{ textAlign: "center" }}>
                   <ListGroup.Item>
+                    <FaReact size={28} />
+                    &nbsp; React
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    <BsFillBootstrapFill size={28} />
+                    &nbsp; React-Bootstrap
+                  </ListGroup.Item>
+                  <ListGroup.Item>
                     <AiFillHtml5 size={28} />
                     &nbsp; HTML5
                   </ListGroup.Item>
@@ -61,14 +69,6 @@ const Skills = () => {
                   <ListGroup.Item>
                     <DiJavascript1 size={28} />
                     &nbsp; JavaScript
-                  </ListGroup.Item>
-                  <ListGroup.Item>
-                    <FaReact size={28} />
-                    &nbsp; React
-                  </ListGroup.Item>
-                  <ListGroup.Item>
-                    <BsFillBootstrapFill size={28} />
-                    &nbsp; React-Bootstrap
                   </ListGroup.Item>
                 </ListGroup>
               </Col>

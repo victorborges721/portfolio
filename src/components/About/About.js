@@ -47,8 +47,8 @@ const About = () => {
               </h6>
               <h6>
                 Out of the office you’ll find me playing Pokémon Go, theorizing
-                about what will happen in the next Marvel film/show, or singing
-                in an a cappella group.
+                about the next new Marvel film/show, or singing in an a cappella
+                group.
               </h6>
               <Button href={resume} className="resume-button" download>
                 <GrDocumentPdf />

@@ -58,6 +58,7 @@ const Contact = () => {
                 type="email"
                 placeholder="Email Address"
                 name="from_email"
+                required
               />
             </FloatingLabel>
 
@@ -70,6 +71,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Your Name"
                 name="from_name"
+                required
               />
             </FloatingLabel>
 
@@ -83,6 +85,7 @@ const Contact = () => {
                 rows={4}
                 placeholder="Your Message"
                 name="message"
+                required
               />
             </FloatingLabel>
             <Button
