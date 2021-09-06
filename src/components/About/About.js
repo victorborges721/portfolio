@@ -19,7 +19,7 @@ const About = () => {
               className="grow profile-photo"
             />
           </Col>
-          <Col xs={12} lg={8}>
+          <Col xs={12} lg={8} className="about-center">
             <h2 className="about-header section-header">&#60;About&#62;</h2>
             <Container className="about-info">
               <h1>
