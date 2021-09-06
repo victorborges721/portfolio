@@ -13,7 +13,7 @@ import { DiCss3, DiJavascript1, DiVisualstudio } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { SiCanva } from "react-icons/si";
-import { BiMovie, BiLinkExternal } from "react-icons/bi";
+import { BiMovie } from "react-icons/bi";
 import { MdSupervisorAccount } from "react-icons/md";
 import accountable from "../../images/accountable.png";
 import appreciation from "../../images/appreciation.png";
