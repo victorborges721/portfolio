@@ -10,10 +10,11 @@ import {
 } from "react-bootstrap";
 import { AiFillHtml5, AiFillApi, AiFillGithub } from "react-icons/ai";
 import { DiCss3, DiJavascript1, DiVisualstudio } from "react-icons/di";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaNodeJs } from "react-icons/fa";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { SiCanva } from "react-icons/si";
-import { BiMovie } from "react-icons/bi";
+import { BiMovie, BiEdit } from "react-icons/bi";
+import { DiDatabase } from "react-icons/di";
 import { MdSupervisorAccount } from "react-icons/md";
 import accountable from "../../images/accountable.png";
 import appreciation from "../../images/appreciation.png";
@@ -52,7 +53,7 @@ const Skills = () => {
                 <ListGroup variant="flush" style={{ textAlign: "center" }}>
                   <ListGroup.Item>
                     <FaReact size={28} />
-                    &nbsp; React
+                    &nbsp; React / React Hooks
                   </ListGroup.Item>
                   <ListGroup.Item>
                     <BsFillBootstrapFill size={28} />
@@ -60,15 +61,16 @@ const Skills = () => {
                   </ListGroup.Item>
                   <ListGroup.Item>
                     <AiFillHtml5 size={28} />
-                    &nbsp; HTML5
-                  </ListGroup.Item>
-                  <ListGroup.Item>
                     <DiCss3 size={28} />
-                    &nbsp; CSS3
+                    &nbsp; HTML5 / CSS3
                   </ListGroup.Item>
                   <ListGroup.Item>
                     <DiJavascript1 size={28} />
                     &nbsp; JavaScript
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    <AiFillGithub size={28} />
+                    &nbsp; Git / GitHub
                   </ListGroup.Item>
                 </ListGroup>
               </Col>
@@ -79,20 +81,20 @@ const Skills = () => {
                     &nbsp; API
                   </ListGroup.Item>
                   <ListGroup.Item>
-                    <AiFillGithub size={28} />
-                    &nbsp; GitHub
-                  </ListGroup.Item>
-                  <ListGroup.Item>
                     <DiVisualstudio size={28} />
                     &nbsp; VSCode
                   </ListGroup.Item>
                   <ListGroup.Item>
-                    <SiCanva size={28} title="Canva logo" />
-                    &nbsp; Canva
+                    <DiDatabase size={28} />
+                    &nbsp; MongoDB / Atlas
                   </ListGroup.Item>
                   <ListGroup.Item>
-                    <BiMovie size={28} />
-                    &nbsp; iMovie
+                    <FaNodeJs size={28} />
+                    &nbsp; NodeJS / Express
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    <BiEdit size={28} title="Canva logo" />
+                    &nbsp; Canva / iMovie
                   </ListGroup.Item>
                 </ListGroup>
               </Col>
@@ -166,7 +168,7 @@ const Skills = () => {
                         width="28"
                         height="28"
                       />
-                      &nbsp; Positivity/Optimism
+                      &nbsp; Positivity / Optimism
                     </ListGroup.Item>
                   </OverlayTrigger>
                   <OverlayTrigger
@@ -250,7 +252,7 @@ const Skills = () => {
                         width="28"
                         height="28"
                       />
-                      &nbsp; Appreciation/Praise
+                      &nbsp; Appreciation / Praise
                     </ListGroup.Item>
                   </OverlayTrigger>
                   <OverlayTrigger
