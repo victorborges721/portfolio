@@ -35,6 +35,26 @@ const projects = [
     project_live_link: "https://pokedex.victorborges.me/",
     project_github_link: "https://github.com/victorborges721/pokedex",
   },
+  {
+    project_name: "Game Garage (E-Commerce)",
+    project_desc:
+      "Game Garage is a MERN e-commerce app that sells some of my favorite video games from over the years. Select a game to read its description and available platforms. This app uses a MongoDB database, Express and NodeJS, and a React frontend.",
+    project_screenshot: "/assets/gamegarage_screenshot.png",
+    project_skills: [
+      "REACT",
+      "MongoDB",
+      "Express",
+      "NodeJS",
+      "Redux",
+      "HTML & CSS",
+      "JAVASCRIPT",
+      "REACT-BOOTSTRAP",
+      "REACT-ROUTER",
+    ],
+    project_gif_link: "/assets/gamegarage_gif.gif",
+    project_live_link: "http://gamegarage.victorborges.me/",
+    project_github_link: "https://github.com/victorborges721/ecommerce",
+  },
 ];
 
 export default projects;
