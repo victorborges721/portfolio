@@ -1,6 +1,3 @@
-// const kudoboard_name = "Kudoboard";
-// const hyperlink = kudoboard_name.link("https://www.kudoboard.com/");
-
 const projects = [
   {
     project_name: "Kudoboard (Clone)",

@@ -21,11 +21,6 @@ const ProjectModal = ({ openProjectModal, setOpenProjectModal, project }) => {
       onHide={() => setOpenProjectModal(false)}
       centered
     >
-      {/* <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          {project.project_name}
-        </Modal.Title>
-      </Modal.Header> */}
       <Modal.Body>
         <Container>
           <Row>
@@ -39,14 +34,6 @@ const ProjectModal = ({ openProjectModal, setOpenProjectModal, project }) => {
                   alt="gif tutorial"
                   className="video"
                 />
-                {/* <iframe
-                  className="video"
-                  src="https://www.youtube.com/embed/us4p9-AKtb8"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe> */}
               </div>
             </Col>
             <Col
@@ -93,9 +80,6 @@ const ProjectModal = ({ openProjectModal, setOpenProjectModal, project }) => {
           </Row>
         </Container>
       </Modal.Body>
-      {/* <Modal.Footer>
-        <Button onClick={() => setOpenProjectModal(false)}>Close</Button>
-      </Modal.Footer> */}
     </Modal>
   );
 };
