@@ -52,6 +52,23 @@ const projects = [
     project_live_link: "http://gamegarage.victorborges.me/",
     project_github_link: "https://github.com/victorborges721/ecommerce",
   },
+  {
+    project_name: "Portfolio",
+    project_desc:
+      "Visit my professional portfolio to learn more about my set of skills, projects I’ve worked on to prepare for a career in web development (includes live demos and GitHub code), and to contact me with questions. Looking forward to connecting with you!",
+    project_screenshot: "/assets/portfolio_screenshot.png",
+    project_skills: [
+      "REACT",
+      "HTML & CSS",
+      "JAVASCRIPT",
+      "REACT-BOOTSTRAP",
+      "EMAILJS",
+      "REACT ICONS",
+    ],
+    project_gif_link: "/assets/portfolio_gif.gif",
+    project_live_link: "http://victorborges.me/",
+    project_github_link: "https://github.com/victorborges721/portfolio",
+  },
 ];
 
 export default projects;
