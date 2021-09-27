@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Container, Image, Row, Col } from "react-bootstrap";
-import borges_pic from "../../images/borges_pic.jpg";
+import borges_pic from "../../images/Headshot.jpg";
 import resume from "../../images/Borges_Resume.pdf";
 import { GrDocumentPdf } from "react-icons/gr";
 import "./style.css";
